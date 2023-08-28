@@ -1,4 +1,4 @@
-package com.py._01;
+package com.py._01为什么使用Lamda表达式;
 
 public class Employee {
     private String name;
