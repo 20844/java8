@@ -1,12 +1,10 @@
-package com.py._09Stream_排序;
+package com.py._09Stream_中间操作_排序;
 
 import com.py._01为什么使用Lamda表达式.Employee;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Stream;
 
 /**
  * 一、Stream 的三个操作步骤：

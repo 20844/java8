@@ -1,4 +1,4 @@
-package com.py._07Stream_筛选与切片;
+package com.py._07Stream_中间操作_筛选与切片;
 
 import com.py._01为什么使用Lamda表达式.Employee;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package com.py._08Stream_映射;
+package com.py._08Stream_中间操作_映射;
 
 import com.py._01为什么使用Lamda表达式.Employee;
 import org.junit.Test;
