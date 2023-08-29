@@ -1,5 +1,7 @@
 package com.py._01为什么使用Lamda表达式;
 
+import java.util.Objects;
+
 public class Employee {
     private String name;
     private Integer age;
@@ -53,5 +55,18 @@ public class Employee {
                 ", age=" + age +
                 ", salary=" + salary +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Employee employee = (Employee) o;
+        return Objects.equals(name, employee.name) && Objects.equals(age, employee.age) && Objects.equals(salary, employee.salary);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(name, age, salary);
     }
 }
